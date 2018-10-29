@@ -1,0 +1,22 @@
+.canvas {
+  position: relative;
+  display: block;
+  width: 800px;
+  height: 800px;
+}
+
+.canvas__zoom-bar {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas__zoom-bar__button {
+  outline: none;
+  border: none;
+  background: transparent;
+}

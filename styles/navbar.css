@@ -1,0 +1,36 @@
+.navigation {
+  padding: 0 8px;
+  height: 48px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation__logo {
+}
+
+.work-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.work-bar__separator {
+  display: inline-block;
+  width: 1px;
+  height: 90%;
+  background: black;
+}
+
+.work-bar__button {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.work-bar__button:hover {
+  cursor: pointer;
+}
