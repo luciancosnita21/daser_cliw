@@ -6,6 +6,15 @@ body {
   margin: 0;
 }
 
+.content {
+  width: 100%;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-auto-rows: minmax(100%, auto);
+  grid-column-gap: 16px;
+}
+
 svg {
   border: 1px solid black;
 }
