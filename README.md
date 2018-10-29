@@ -1,3 +1,15 @@
+### Development
+
+* Intall the project
+```cmd
+npm run install
+```
+
+* Start the dev server
+```cmd
+npm run serve
+```
+
 ### Components
 
 * Root

@@ -1,0 +1,55 @@
+.table {
+
+}
+
+.table-background {
+  fill: black;
+  opacity: 0.25;
+}
+
+.table-border {
+  fill: none;
+  stroke-width: 2px;
+  stroke: #ecf0f1;
+}
+
+.table__header {
+
+}
+
+.table__header__background {
+  fill: #7f8c8d;
+}
+
+.table__header__title {
+  fill: white;
+  font-size: 12px;
+}
+
+
+rect {
+  fill: none;
+}
+
+.small { font: italic 13px sans-serif; }
+
+
+.col-name text {
+  fill: #ecf0f1;
+}
+
+.col-type text {
+  fill: #e67e22;
+}
+
+.table-title {
+  transform: translate(0, 0);
+}
+
+text {
+  font-size: 13px;
+}
+
+.icon {
+  fill: white;
+}

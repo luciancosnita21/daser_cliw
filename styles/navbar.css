@@ -1,14 +1,17 @@
 .navigation {
   padding: 0 8px;
   height: 48px;
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background: #818181;
 }
 
 .navigation__logo {
+  color: #004D40;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .work-bar {
@@ -21,16 +24,18 @@
 .work-bar__separator {
   display: inline-block;
   width: 1px;
-  height: 90%;
-  background: black;
+  height: 24px;
+  background: rgba(0, 0, 0, .54);
 }
 
 .work-bar__button {
   outline: none;
   border: none;
   background: transparent;
+  color: rgba(0, 0, 0, .54);
 }
 
 .work-bar__button:hover {
   cursor: pointer;
+  color: rgba(0, 0, 0, .95)
 }

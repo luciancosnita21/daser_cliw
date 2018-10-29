@@ -33,6 +33,7 @@ const tableData = {
     }
   ]
 };
+
 window.addEventListener('load', () => {
   const $svg = document.querySelector('svg');
   const testTable = new TableComponent(TableConfig.get());

@@ -1,3 +1,5 @@
 @import './style.css'; 
+@import './layout.css';
 @import './navbar.css';
 @import './canvas.css';
+@import './table-component.css';

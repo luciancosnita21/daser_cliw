@@ -4,12 +4,12 @@
     <%= require('html-loader!./head.template.html') %>
   </head>
   <body>
-    <%= require('html-loader!./header.template.html') %>
-
     <section class="content">
+      <%= require('html-loader!./header.template.html') %>
       <%= require('html-loader!./structure-panel.template.html') %>
       <%= require('html-loader!./canvas.template.html') %>
       <%= require('html-loader!./proprieties-panel.template.html') %>
+      <%= require('html-loader!./footer.template.html') %>
     </section>
   </body>
 </html>
