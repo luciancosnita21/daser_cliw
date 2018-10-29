@@ -1,11 +1,4 @@
-/* General style */
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
+/* General style and resets */
 body {
   background: #606060;
   font-family: 'Roboto', sans-serif;
@@ -18,4 +11,16 @@ body {
 
 .panel {
   background: #818181;
+  padding: 8px;
+}
+
+.panel__title {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.panel__content {
+
 }
