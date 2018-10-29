@@ -26,10 +26,10 @@ export class TableComponent {
     const { x, y } = this.position;
     return `
       <g class="table" transform="translate(${x}, ${y})">
-          <rect x="0" y="0" width="${this.width}" height="${this.height}" class="table-background"/>
-          ${headerTemplate}
-          ${contentTemplate}
-          <rect x="0" y="0" width="${this.width}" height="${this.height}" class="table-border"/>
+        <rect x="0" y="0" width="${this.width}" height="${this.height}" class="table-background"/>
+        ${headerTemplate}
+        ${contentTemplate}
+        <rect x="0" y="0" width="${this.width}" height="${this.height}" class="table-border"/>
       </g>
     `;
   }

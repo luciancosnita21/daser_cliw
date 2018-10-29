@@ -26,7 +26,7 @@ export class ContentComponent {
   }
 
   generateKeyTemplate(meta, start) {
-      return `<use xlink:href="icons/key.svg#key-icon" class="icon" x="${start}" y="6" width="18" height="18"></use>`
+      return `<use xlink:href="assets/icons/key.svg#key-icon" class="icon" x="${start}" y="6" width="18" height="18"></use>`
   }
 
   generateColsTemplate(cols) {

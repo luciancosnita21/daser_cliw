@@ -10,7 +10,7 @@ export class HeaderComponent {
 
       return `<g class="table-title" transform="translate(0, 0)">
         <rect x="0" y="0" width="${width}" height="${height}" />
-        <use xlink:href="icons/table.svg#table-icon" class="icon" x="4" y="6" width="18" height="18"></use>
+        <use xlink:href="assets/icons/table.svg#table-icon" class="icon" x="4" y="6" width="18" height="18"></use>
         <text x="30" y="20" class="table-title">${props.title}</text>
       </g>`;
     }

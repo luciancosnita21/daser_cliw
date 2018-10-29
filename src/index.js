@@ -38,7 +38,8 @@ window.addEventListener('load', () => {
   const $svg = document.querySelector('svg');
   const testTable = new TableComponent(TableConfig.get());
   const testTable2 = new TableComponent(TableConfig.get());
-  testTable2.setPosition(0, 600);
+  testTable.setPosition(60, 60);
+  testTable2.setPosition(60, 300);
 
   const t1 = testTable.render(tableData);
   const t2 = testTable2.render(tableData);

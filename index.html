@@ -1,66 +1,43 @@
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-    <style>
-      body {
-        background: #7f8c8d;
-        font-family: 'Roboto', sans-serif;
-      }
-      
-      svg {
-        border: 1px solid black;
-      }
-
-      rect {
-        fill: none;
-      }
-      
-      .table-title {
-        fill: white;
-        font-size: 12px;
-      }
-
-      .table-title rect {
-        fill: #7f8c8d;
-      }
-
-      .table-background {
-        fill: black;
-        opacity: 0.25;
-      }
-
-      .table-border {
-        fill: none;
-        stroke-width: 2px;
-        stroke: #ecf0f1;
-      }
-
-      .small { font: italic 13px sans-serif; }
-      
-
-      .col-name text {
-        fill: #ecf0f1;
-      }
-      
-      .col-type text {
-        fill: #e67e22;
-      }
-
-      .table-title {
-        transform: translate(0, 0);
-      }
-
-      text {
-        font-size: 13px;
-      }
-      
-      .icon {
-        fill: white;
-      }
-    </style>
+    <link href="style.css" rel="stylesheet" >
   </head>
   <body>
-    <svg width="1200" height="800"></svg>
+    <nav class="navigation">
+      <span class="navigation__logo">DASER</span>
+
+      <div class="work-bar">
+        <button class="work-bar__button"><i class="material-icons">undo</i></button>
+        <button class="work-bar__button"><i class="material-icons">redo</i></button>
+        <button class="work-bar__button"><i class="material-icons">call_made</i></button>
+        
+        <span class="work-bar__separator"></span>
+        
+        <button class="work-bar__button"><i class="material-icons">add_box</i></button>
+        <button class="work-bar__button"><i class="material-icons">keyboard_return</i></button>
+        <button class="work-bar__button"><i class="material-icons">note_add</i></button>
+      </div>
+    </nav>
+
+    <section class="canvas">
+      <section class="canvas__zoom-bar">
+        <button class="canvas__zoom-bar__button">
+          <i class="material-icons">aspect_ratio</i>
+        </button>
+
+        <button class="canvas__zoom-bar__button">
+          <i class="material-icons">zoom_in</i>
+        </button>
+
+        <button class="canvas__zoom-bar__button">
+          <i class="material-icons">zoom_out</i>
+        </button>
+      </section>
+
+      <svg class="canvas__svg" width="1200" height="800"></svg>
+    </section>
     <script type="module" src="src/index.js"></script>
   </body>
 </html>
