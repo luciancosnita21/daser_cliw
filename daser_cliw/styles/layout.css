@@ -1,0 +1,36 @@
+/* Layout styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.navigation {
+  grid-area: navigation;
+}
+
+.canvas {
+  grid-area: canvas;
+}
+
+.structure-panel {
+  grid-area: structure-panel;
+}
+
+.propreties-panel {
+  grid-area: properties-panel;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 50px calc(100% - 70px);
+  grid-template-areas: 
+    "navigation navigation navigation"
+    "structure-panel canvas properties-panel"
+  ;
+}
